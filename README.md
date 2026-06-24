@@ -1,5 +1,7 @@
 # varintkit
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 > Zero-dependency TypeScript LEB128 / variable-length integer encoder-decoder. Unsigned (uvarint), signed zigzag (varint), BigInt, sequences, `ByteWriter` and `ByteReader`. Port of Go `encoding/binary` / Python `leb128`.
 
 [![npm](https://img.shields.io/npm/v/varintkit)](https://www.npmjs.com/package/varintkit)
@@ -159,6 +161,28 @@ new ByteReader(bytes: Uint8Array, offset?: number)
 | > 268435455 | 4 bytes | 5 bytes |
 
 For data where most integers are small (IDs, lengths, offsets), LEB128 typically reduces size by 50–75%.
+
+## Contributors ✨
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome — code, docs, bug reports, ideas, reviews! See the [emoji key](https://allcontributors.org/docs/en/emoji-key) for how each contribution is recognized, and open a PR or issue to get involved.
+
+Thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/trananhtung"><img src="https://avatars.githubusercontent.com/u/30992229?v=4?s=100" width="100px;" alt="Tung Tran"/><br /><sub><b>Tung Tran</b></sub></a><br /><a href="https://github.com/trananhtung/varintkit/commits?author=trananhtung" title="Code">💻</a> <a href="#maintenance-trananhtung" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
